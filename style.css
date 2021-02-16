@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+section.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+}
+
+section.page1 div.item{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span.description{
+    text-transform: uppercase;
+    color: yellow;
+    font-size: 50px;
+    text-align: center;
+}
