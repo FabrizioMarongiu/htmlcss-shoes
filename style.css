@@ -18,7 +18,7 @@ section.page1{
 }
 
 section.page1 div.item{
-
+    padding-top: 50px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,4 +30,21 @@ span.description{
     color: yellow;
     font-size: 50px;
     text-align: center;
+}
+
+nav li{
+    padding: 20px;
+    display: inline-block;
+
+}
+
+nav li a{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    position: fixed;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
 }
